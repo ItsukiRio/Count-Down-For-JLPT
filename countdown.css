@@ -61,8 +61,8 @@
 
 @media (max-width: 780px){
     .container{
-        width: 115vw;
-        height: 115vh;
+        width: 100vw;
+        height: 100vh;
         background-image: url(image/How\ Taoist\ philosophy\ deals\ with\ the\ concept\ of\ anxiety.png);
         background-position: center;
         background-size: cover;
@@ -71,17 +71,17 @@
     }
     
     .logo{
-        font-size: 15px;
+        font-size: 12px;
         color: #000;
         font-weight: 500;
         position: absolute;
         top: 93%;
-        left: 55%;
+        left: 5%;
     }
     
     .content{
-        top: 10%;
-        left: 13%;
+        top: 5%;
+        left: 11%;
         position: absolute;
         transform: translateY(-50%);
         color: #000;
@@ -90,18 +90,23 @@
     .content h1{
         font-size: 28px;
         font-weight: 700;
+        align-items: center;
+        margin-left: 5%;
     }
     .content h1 span{
         color: #ff3753;
         font-size: 30px;
     }
+    .content p{
+        margin-left: -3%
+    }
     
     .launch-time{
         display: block;
-        margin-top: 30px;
+        margin-top: 20px;
         left: 23%;
         position: absolute;
-        column-gap: 30px;
+        column-gap: 20px;
     }
     .launch-time div{
         flex-basis: 100px;
@@ -110,12 +115,12 @@
         color: #000;
         padding-left: 25px;
         padding-right: 25px;
-        padding-top: 15px;
         border: 2px solid #000;
         margin: 20px;
+        border-radius: 10px;
     }
     .launch-time div p{
-        font-size: 40px;
+        font-size: 30px;
         margin-bottom: -14px;
     }
 }
